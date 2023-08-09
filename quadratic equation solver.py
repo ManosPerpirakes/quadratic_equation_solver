@@ -4,14 +4,17 @@ from PyQt6.QtWidgets import QApplication, QTextEdit, QPushButton, QVBoxLayout, Q
 def get_a():
     global a
     a = input_prompt.text()
+    input_prompt.clear()
 
 def get_b():
     global b
     b = input_prompt.text()
+    input_prompt.clear()
 
 def get_c():
     global c
     c = input_prompt.text()
+    input_prompt.clear()
 
 def solvef():
     global total
