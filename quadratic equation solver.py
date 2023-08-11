@@ -31,7 +31,7 @@ def solvef():
             total += 'D = ' + str(D) + "\n" + 'the equation is impossible\n'
         display.setText(total)
     except:
-        total += 'μη κατανοητό'
+        total += 'unfathomable\n'
         display.setText(total)
 
 app = QApplication([])
