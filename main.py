@@ -21,8 +21,8 @@ def solvef():
     try:
         D = (float(b) * float(b) - 4 * float(a) * float(c))
         if D > 0:
-            x1 = (- float(b) / 2 * float(a) + sqrt(D) / 2 * float(a))
-            x2 = (- float(b) / 2 * float(a) - sqrt(D) / 2 * float(a))
+            x1 = (((-1*float(b))+sqrt(float(D)))/(2*float(a)))
+            x2 = (((-1*float(b))-sqrt(float(D)))/(2*float(a)))
             total += 'D = ' + str(D) + "\n" + 'x1 = ' + str(x1) + "\n" + 'x2 = ' + str(x2) + "\n"
         elif D == 0:
             x1 = (- float(b) / 2 * float(a))
